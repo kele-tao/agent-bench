@@ -1,5 +1,7 @@
 # agent-bench
 
+**English** | [简体中文](README.zh-CN.md)
+
 **A deterministic, offline benchmark for tool-using LLM agents: 17 tasks, 12 mock tools, scripted failures and Wilson intervals - it runs in CI with no API key and gives the same score every time.**
 
 [![ci](https://github.com/kele-tao/agent-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/kele-tao/agent-bench/actions/workflows/ci.yml)
