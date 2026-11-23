@@ -1,0 +1,823 @@
+{
+  "version": "1.0.0",
+  "suites": {
+    "core": {
+      "scripted": {
+        "policy": "scripted",
+        "suite": "core",
+        "repeats": 1,
+        "tasks": 12,
+        "episodes": 12,
+        "passed_episodes": 12,
+        "success_rate": 1.0,
+        "success_ci": {
+          "successes": 12,
+          "total": 12,
+          "estimate": 1.0,
+          "low": 0.757506,
+          "high": 1.0
+        },
+        "mean_score": 1.0,
+        "efficiency": 1.666667,
+        "total_calls": 20,
+        "failed_calls": 3,
+        "wasted_rate": 0.15,
+        "schema_violations": 0,
+        "schema_rate": 0.0,
+        "injected_faults": 2,
+        "recovered_faults": 2,
+        "recovery_rate": 1.0,
+        "categories": [
+          {
+            "category": "tool-selection",
+            "episodes": 2,
+            "passed": 2,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 2,
+              "total": 2,
+              "estimate": 1.0,
+              "low": 0.34238,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 0
+          },
+          {
+            "category": "multi-step-planning",
+            "episodes": 2,
+            "passed": 2,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 2,
+              "total": 2,
+              "estimate": 1.0,
+              "low": 0.34238,
+              "high": 1.0
+            },
+            "calls": 5,
+            "wasted_calls": 0
+          },
+          {
+            "category": "error-recovery",
+            "episodes": 2,
+            "passed": 2,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 2,
+              "total": 2,
+              "estimate": 1.0,
+              "low": 0.34238,
+              "high": 1.0
+            },
+            "calls": 4,
+            "wasted_calls": 2
+          },
+          {
+            "category": "ambiguity-handling",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 0
+          },
+          {
+            "category": "constraint-following",
+            "episodes": 2,
+            "passed": 2,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 2,
+              "total": 2,
+              "estimate": 1.0,
+              "low": 0.34238,
+              "high": 1.0
+            },
+            "calls": 3,
+            "wasted_calls": 0
+          },
+          {
+            "category": "long-context-retrieval",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "arithmetic-with-tools",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "refusal-safety",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 1
+          }
+        ],
+        "task_count": 12
+      },
+      "scripted-hasty": {
+        "policy": "scripted-hasty",
+        "suite": "core",
+        "repeats": 1,
+        "tasks": 12,
+        "episodes": 12,
+        "passed_episodes": 10,
+        "success_rate": 0.833333,
+        "success_ci": {
+          "successes": 10,
+          "total": 12,
+          "estimate": 0.833333,
+          "low": 0.551969,
+          "high": 0.953035
+        },
+        "mean_score": 0.856061,
+        "efficiency": 1.5,
+        "total_calls": 18,
+        "failed_calls": 3,
+        "wasted_rate": 0.166667,
+        "schema_violations": 0,
+        "schema_rate": 0.0,
+        "injected_faults": 2,
+        "recovered_faults": 0,
+        "recovery_rate": 0.0,
+        "categories": [
+          {
+            "category": "tool-selection",
+            "episodes": 2,
+            "passed": 2,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 2,
+              "total": 2,
+              "estimate": 1.0,
+              "low": 0.34238,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 0
+          },
+          {
+            "category": "multi-step-planning",
+            "episodes": 2,
+            "passed": 2,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 2,
+              "total": 2,
+              "estimate": 1.0,
+              "low": 0.34238,
+              "high": 1.0
+            },
+            "calls": 5,
+            "wasted_calls": 0
+          },
+          {
+            "category": "error-recovery",
+            "episodes": 2,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.136364,
+            "ci": {
+              "successes": 0,
+              "total": 2,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.65762
+            },
+            "calls": 2,
+            "wasted_calls": 2
+          },
+          {
+            "category": "ambiguity-handling",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 0
+          },
+          {
+            "category": "constraint-following",
+            "episodes": 2,
+            "passed": 2,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 2,
+              "total": 2,
+              "estimate": 1.0,
+              "low": 0.34238,
+              "high": 1.0
+            },
+            "calls": 3,
+            "wasted_calls": 0
+          },
+          {
+            "category": "long-context-retrieval",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "arithmetic-with-tools",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "refusal-safety",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 1
+          }
+        ],
+        "task_count": 12
+      },
+      "scripted-naive": {
+        "policy": "scripted-naive",
+        "suite": "core",
+        "repeats": 1,
+        "tasks": 12,
+        "episodes": 12,
+        "passed_episodes": 0,
+        "success_rate": 0.0,
+        "success_ci": {
+          "successes": 0,
+          "total": 12,
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.242494
+        },
+        "mean_score": 0.224728,
+        "efficiency": 0.666667,
+        "total_calls": 8,
+        "failed_calls": 5,
+        "wasted_rate": 0.625,
+        "schema_violations": 0,
+        "schema_rate": 0.0,
+        "injected_faults": 2,
+        "recovered_faults": 0,
+        "recovery_rate": 0.0,
+        "categories": [
+          {
+            "category": "tool-selection",
+            "episodes": 2,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.0,
+            "ci": {
+              "successes": 0,
+              "total": 2,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.65762
+            },
+            "calls": 0,
+            "wasted_calls": 0
+          },
+          {
+            "category": "multi-step-planning",
+            "episodes": 2,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.133333,
+            "ci": {
+              "successes": 0,
+              "total": 2,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.65762
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "error-recovery",
+            "episodes": 2,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.265152,
+            "ci": {
+              "successes": 0,
+              "total": 2,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.65762
+            },
+            "calls": 2,
+            "wasted_calls": 2
+          },
+          {
+            "category": "ambiguity-handling",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.333333,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "constraint-following",
+            "episodes": 2,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.437063,
+            "ci": {
+              "successes": 0,
+              "total": 2,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.65762
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "long-context-retrieval",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.0,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 0,
+            "wasted_calls": 0
+          },
+          {
+            "category": "arithmetic-with-tools",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.0,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 0,
+            "wasted_calls": 0
+          },
+          {
+            "category": "refusal-safety",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.692308,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 3,
+            "wasted_calls": 3
+          }
+        ],
+        "task_count": 12
+      }
+    },
+    "hard": {
+      "scripted": {
+        "policy": "scripted",
+        "suite": "hard",
+        "repeats": 1,
+        "tasks": 5,
+        "episodes": 5,
+        "passed_episodes": 5,
+        "success_rate": 1.0,
+        "success_ci": {
+          "successes": 5,
+          "total": 5,
+          "estimate": 1.0,
+          "low": 0.565518,
+          "high": 1.0
+        },
+        "mean_score": 1.0,
+        "efficiency": 2.4,
+        "total_calls": 12,
+        "failed_calls": 3,
+        "wasted_rate": 0.25,
+        "schema_violations": 0,
+        "schema_rate": 0.0,
+        "injected_faults": 2,
+        "recovered_faults": 2,
+        "recovery_rate": 1.0,
+        "categories": [
+          {
+            "category": "multi-step-planning",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 3,
+            "wasted_calls": 0
+          },
+          {
+            "category": "error-recovery",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 4,
+            "wasted_calls": 2
+          },
+          {
+            "category": "constraint-following",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 0
+          },
+          {
+            "category": "long-context-retrieval",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "refusal-safety",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 1
+          }
+        ],
+        "task_count": 5
+      },
+      "scripted-hasty": {
+        "policy": "scripted-hasty",
+        "suite": "hard",
+        "repeats": 1,
+        "tasks": 5,
+        "episodes": 5,
+        "passed_episodes": 4,
+        "success_rate": 0.8,
+        "success_ci": {
+          "successes": 4,
+          "total": 5,
+          "estimate": 0.8,
+          "low": 0.375535,
+          "high": 0.963776
+        },
+        "mean_score": 0.8,
+        "efficiency": 1.8,
+        "total_calls": 9,
+        "failed_calls": 2,
+        "wasted_rate": 0.222222,
+        "schema_violations": 0,
+        "schema_rate": 0.0,
+        "injected_faults": 1,
+        "recovered_faults": 0,
+        "recovery_rate": 0.0,
+        "categories": [
+          {
+            "category": "multi-step-planning",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 3,
+            "wasted_calls": 0
+          },
+          {
+            "category": "error-recovery",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.0,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 1,
+            "wasted_calls": 1
+          },
+          {
+            "category": "constraint-following",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 0
+          },
+          {
+            "category": "long-context-retrieval",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "refusal-safety",
+            "episodes": 1,
+            "passed": 1,
+            "success_rate": 1.0,
+            "mean_score": 1.0,
+            "ci": {
+              "successes": 1,
+              "total": 1,
+              "estimate": 1.0,
+              "low": 0.206549,
+              "high": 1.0
+            },
+            "calls": 2,
+            "wasted_calls": 1
+          }
+        ],
+        "task_count": 5
+      },
+      "scripted-naive": {
+        "policy": "scripted-naive",
+        "suite": "hard",
+        "repeats": 1,
+        "tasks": 5,
+        "episodes": 5,
+        "passed_episodes": 0,
+        "success_rate": 0.0,
+        "success_ci": {
+          "successes": 0,
+          "total": 5,
+          "estimate": 0.0,
+          "low": 0.0,
+          "high": 0.434482
+        },
+        "mean_score": 0.350357,
+        "efficiency": 1.4,
+        "total_calls": 7,
+        "failed_calls": 4,
+        "wasted_rate": 0.571429,
+        "schema_violations": 0,
+        "schema_rate": 0.0,
+        "injected_faults": 1,
+        "recovered_faults": 0,
+        "recovery_rate": 0.0,
+        "categories": [
+          {
+            "category": "multi-step-planning",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.4375,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 2,
+            "wasted_calls": 0
+          },
+          {
+            "category": "error-recovery",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.2,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 1,
+            "wasted_calls": 1
+          },
+          {
+            "category": "constraint-following",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.4,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 1,
+            "wasted_calls": 0
+          },
+          {
+            "category": "long-context-retrieval",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.0,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 0,
+            "wasted_calls": 0
+          },
+          {
+            "category": "refusal-safety",
+            "episodes": 1,
+            "passed": 0,
+            "success_rate": 0.0,
+            "mean_score": 0.714286,
+            "ci": {
+              "successes": 0,
+              "total": 1,
+              "estimate": 0.0,
+              "low": 0.0,
+              "high": 0.793451
+            },
+            "calls": 3,
+            "wasted_calls": 3
+          }
+        ],
+        "task_count": 5
+      }
+    }
+  },
+  "timing": {
+    "core": {
+      "median_ms": 2.38,
+      "runs": 5
+    },
+    "hard": {
+      "median_ms": 1.29,
+      "runs": 5
+    },
+    "synthetic_200_tasks": {
+      "median_ms": 43.61,
+      "runs": 1,
+      "tasks": 200
+    }
+  },
+  "tests": 182
+}

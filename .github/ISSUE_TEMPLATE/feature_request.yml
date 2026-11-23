@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest a task, tool or metric for agent-bench.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New tasks are especially welcome. Please describe the failure mode the
+        task should expose, not only the happy path.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What gap does this fill?
+      description: Which agent behaviour is currently unmeasured?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Tool, task or metric. Include the grader that would detect failure.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [task suite, tool layer, metrics, reporting, adapters, CLI]
+    validations:
+      required: true

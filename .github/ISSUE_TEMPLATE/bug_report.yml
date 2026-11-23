@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in agent-bench is wrong or crashes.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the report. Please include the exact command you ran.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Actual output, including the full error message.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: Command and, if relevant, the suite JSON.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: agent-bench version
+      placeholder: output of `agent-bench --version`
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version and OS
+      placeholder: 3.12.10 on Windows 11
+    validations:
+      required: true
